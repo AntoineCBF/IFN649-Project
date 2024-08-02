@@ -14,6 +14,7 @@ const int buzzerPin = 17;
 void setup() {
   // initialize the digital pin as an output.
   pinMode(ledPin, OUTPUT);
+  pinMode(buzzerPin, OUTPUT);
 }
 
 // the loop() methor runs over and over again,
